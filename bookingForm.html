@@ -5,17 +5,29 @@
     <title>Booking Form</title>
 </head>
 <body>
+
     <h1 > Contact Information</h1>
+
     <form>
         <label for="email"></label>
         <input type="email" id="email" placeholder="Enter Your E-mail" name="email">
         <label for="phone number"></label>
+        <select name="countrycode" id="">
+            <option data-countrycode="US" value="=1"> +1</option>
+            <option data-countrycode="SMR" value="=237">CAMEROON (+237)</option>
+        </select>
+<!--        <select name="countryCode" id="">-->
+<!--            <option data-countryCode="GB" value="44" Selected>UK (+44)</option>-->
+<!--            <option data-countryCode="US" value="1">USA (+1)</option>-->
+<!--        </select>-->
         <input type="integer" id="phone number"
                placeholder="Enter Your Phone Number" name="phone number"><br>
 
         <br>
 
         <button type="submit">CONTINUE DETAILS</button>
+
+
 
         <h2> Travellers Details</h2>
             <label for="Title" >Title</label>
@@ -25,6 +37,8 @@
             <option value="Mrs">Mrs</option>
             <option value="Dr">Dr</option>
             <option value="Prof">Prof</option>
+
+
         </select>
             <label for="first name">First Name</label>
             <input type="text" id="first name" placeholder="First Name" name="First Name">
@@ -37,6 +51,8 @@
 
         <label for="Date of Birth">Date of Birth</label>
         <input type="date" id="Date of Birth" name="Date of Birth">
+
+
         <select name="Gender" id="Gender">
             <option value="Select Gender">Select Gender</option>
             <option value="Male">Male</option>
