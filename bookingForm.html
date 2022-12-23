@@ -6,7 +6,7 @@
 </head>
 <body>
     <h1 > Contact Information</h1>
-    <form >
+    <form>
         <label for="email"></label>
         <input type="email" id="email" placeholder="Enter Your E-mail" name="email">
         <label for="phone number"></label>
@@ -15,13 +15,30 @@
         <button type="submit">CONTINUE DETAILS</button>
 
         <h2> Travellers Details</h2>
-        <form>
+            <label for="Title" >Title</label>
+            <select name="Title" id="Title">
+            <option value="Title" placeholder="Select Title">Select Title</option>
+            <option value="Mr">Mr</option>
+            <option value="Mrs">Mrs</option>
+            <option value="Dr">Dr</option>
+            <option value="Prof">Prof</option>
+        </select>
             <label for="first name">First Name</label>
             <input type="text" id="first name" placeholder="First Name" name="First Name">
-            <label for="middle name"></label>
+            <label for="middle name">Middle Name</label>
             <input type="text" id="middle name" placeholder="middle Name" name="middle Name">
-            <input type="text" id="last name" placeholder="last Name" name="last Name">
-        </form>
+            <label for="last name">Last Name</label>
+            <input type="text" id="last name" placeholder="last Name" name="last Name"><br>
+                <br>
+
+        <select name="Gender" id="Gender">
+            <option value="Select Gender">Select Gender</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+
+
+
     </form>
 
 </body>
