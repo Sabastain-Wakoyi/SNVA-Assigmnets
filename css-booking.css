@@ -7,3 +7,7 @@ body{
     text-align: center;
     background-image: url("images/90.png");
 }
+
+h1{
+    Font-family: Palatino;
+}
