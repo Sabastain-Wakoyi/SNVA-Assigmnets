@@ -1,13 +1,20 @@
 body{
     background-color: forestgreen;
     padding: 0;
-    margin: 0;
+    margin: 20px;
     position: center;
     width: 100%;
     text-align: center;
     background-image: url("images/90.png");
+    background-size: 50%;
 }
 
 h1{
-    Font-family: Palatino;
+
+    font-size: larger;
+    font-family:"Apple Braille";
+}
+
+h2{
+    font-size: x-large;
 }
