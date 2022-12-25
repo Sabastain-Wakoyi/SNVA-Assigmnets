@@ -33,7 +33,6 @@
     <td><label>Last Name</label></td>
                 </tr>
 
-
             <tr>
                 <td>
                 <select name="Title" id="Title">
@@ -47,24 +46,30 @@
                 </td>
                 <td><input type="text" placeholder="First Name" required></td>
                 <td><input type="text" placeholder="Middle Name" ></td>
-                <td><input type="text" placeholder="Last Name" required></td><br>
-            </tr> <br>
+                <td><input type="text" placeholder="Last Name" required></td>
+            </tr>
 
             <br>
 
             <tr>
                 <td><label for="Date of Birth">Date of Birth</label></td>
+                <td><label for="Gender">Gender</label></td>
+
             </tr>
                 <tr>
-                    <td><input type="Date of Birth" id="Date of Birth" name="Date of Birth"></td>
+                    <td> <input type="Date of Birth" id="Date of Birth" name="Date of Birth" required> </td>
+                    <td>
+                        <select name="Gender" id="Gender">
+                            <option value="Gender" placeholder="Gender">Gender</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+
+                        </select>
+                    </td>
                 </tr>
+
         </table>
     </div>
-
-
-
-
-
 
 </form>
 </body>
