@@ -8,7 +8,7 @@
             <h1>CONTACT INFORMATION</h1>
 <form>
     <label for="email"></label>
-    <input type="email" id="email" placeholder="Enter your Email" name="email">
+    <input type="email" id="email" placeholder="Enter your Email" maxlength="20" name="email" required>
 
     <select name="country code" id="*">
         <option data-countrycode="US" value="1">&#127482;&#127480; +1 USA</option>
@@ -16,8 +16,10 @@
         <option data-countrycode="CMR" value="237">&#127464;&#127474; +237 CAMEROON</option>
         <option data-countrycode="INDIA" value="97">&#127470;&#127475; +97 INDIA</option>
     </select>
-    <input type="integer" id="phone number" placeholder="Enter Your Phone Number" pattern="[0-9]{3} [0-9]{3} [0-9]{4}" maxlength="15" title="Twelve digits code" name="Phone Number" required>
-
+    <input type="integer" id="phone number" placeholder="Enter Your Phone Number"
+           pattern="[0-9]{3} [0-9]{3} [0-9]{4}" maxlength="15" title="Twelve digits code" name="Phone Number" required><br>
+ <br>
+    <button type="submit"> CONTINUE DETAILS</button>
 
 </form>
 </body>
