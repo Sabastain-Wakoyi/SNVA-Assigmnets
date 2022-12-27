@@ -1,5 +1,5 @@
 body{
-
+position: ;
 }
 
 div{
@@ -7,10 +7,15 @@ div{
 }
 
 h1{
+    text-align: center;
+    text-emphasis-color: lightgreen;
+    font-family: Papyrus;
+    font-size: x-large;
 
 }
 
 h2{
+    text-align: center;
 
 }
 
