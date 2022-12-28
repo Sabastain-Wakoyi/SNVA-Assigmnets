@@ -1,0 +1,11 @@
+.topnav{
+    /*background-color: darkgoldenrod;*/
+    overflow: hidden;
+}
+
+.topnav a{
+    float: left;
+    /*color: forestgreen;*/
+    font-size: 20px;
+    text-align: left;
+}
