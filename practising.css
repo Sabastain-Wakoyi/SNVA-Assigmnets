@@ -1,11 +1,16 @@
-.topnav{
-    /*background-color: darkgoldenrod;*/
-    overflow: hidden;
-}
+/*.topnav{*/
+/*    !*background-color: darkgoldenrod;*!*/
+/*    overflow: hidden;*/
+/*}*/
 
-.topnav a{
-    float: left;
-    /*color: forestgreen;*/
-    font-size: 20px;
-    text-align: left;
+/*.topnav a{*/
+/*    float: left;*/
+/*    !*color: forestgreen;*!*/
+/*    font-size: 20px;*/
+/*    text-align: left;*/
+/*}*/
+
+nav{
+    display: flex;
+    position: fixed;
 }
