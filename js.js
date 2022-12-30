@@ -1,3 +1,6 @@
+
+event.preventDefault()
+
 function sendInfos(){
     var email = document.getElementById(email).value
     var phone = document.getElementById(phone).value
@@ -11,7 +14,9 @@ function sendInfos(){
         document.getElementById(email).value = email
         document.getElementById(phone).value = phone
 
-
+        alert('Move to the next item')
+    } else {
+        alert('Fill the first section')
     }
 
 
