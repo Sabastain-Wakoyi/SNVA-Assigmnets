@@ -11,11 +11,8 @@ public class matrix {
 
         Arrays.sort(data);
         for (Object row: data){
-            Integer[] theRow = (Integer[]) row;
-            System.out.println(Arrays.asList(theRow));
-
+            Integer[] row1 = (Integer[]) row;
+            System.out.println(row1);
         }
-
-
     }
 }
