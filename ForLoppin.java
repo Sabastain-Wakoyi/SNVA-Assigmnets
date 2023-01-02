@@ -5,3 +5,4 @@ public class ForLoppin {
             System.out.println("Hello World");
     }
 }
+//java for loop
