@@ -3,6 +3,7 @@ public class ForLoopDEmo {
         for (int i = 0; i <=10; i++){
             System.out.println(i);
 
+            //for loop in java
         }
     }
 }
