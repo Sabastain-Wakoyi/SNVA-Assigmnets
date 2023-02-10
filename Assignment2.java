@@ -5,23 +5,23 @@ public class Assignment2 {
     static int[] prices;
 
     public static void main(String[] args) {
-        // generate random prices for 100 days
+        // random prices for 100 days are generated
         prices = new int[100];
         Random rand = new Random();
         for (int i = 0; i < prices.length; i++) {
-            prices[i] = 50 + rand.nextInt(71);
+            prices[i] = 50 + rand.nextInt(80);
         }
 
-        // calculate daily changes in prices
+        // this will calculate the daily changes in prices
         int[] changes = new int[prices.length - 1];
         for (int i = 0; i < changes.length; i++) {
             changes[i] = prices[i + 1] - prices[i];
         }
 
-        // find the maximum subarray of daily changes
+        // this finds the maximum subarray of daily changes
         Result result = findMaximumSubarray(changes, 0, changes.length - 1);
 
-        // print the result
+        // print the result for left index, right index and the middle index
         System.out.println("Left index: " + result.left);
         System.out.println("Right index: " + result.right);
         System.out.println("Middle index: " + (result.left + result.right) / 2);
