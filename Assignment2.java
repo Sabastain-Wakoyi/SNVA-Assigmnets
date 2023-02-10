@@ -9,7 +9,7 @@ public class Assignment2 {
         prices = new int[100];
         Random rand = new Random();
         for (int i = 0; i < prices.length; i++) {
-            prices[i] = 50 + rand.nextInt(91);
+            prices[i] = 50 + rand.nextInt(71);
         }
 
         // calculate daily changes in prices
@@ -18,14 +18,13 @@ public class Assignment2 {
             changes[i] = prices[i + 1] - prices[i];
         }
 
-        //  maximum subarray of daily changes
+        // find the maximum subarray of daily changes
         Result result = findMaximumSubarray(changes, 0, changes.length - 1);
 
-        // this print the results
+        // print the result
         System.out.println("Left index: " + result.left);
         System.out.println("Right index: " + result.right);
         System.out.println("Middle index: " + (result.left + result.right) / 2);
-        System.out.println("Sum: " + result.sum);
     }
 
     private static Result findMaximumSubarray(int[] array, int low, int high) {
