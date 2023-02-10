@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class Assign2 {
+public class Assignment2 {
 
     static int[] prices;
 
@@ -9,7 +9,7 @@ public class Assign2 {
         prices = new int[100];
         Random rand = new Random();
         for (int i = 0; i < prices.length; i++) {
-            prices[i] = 50 + rand.nextInt(71);
+            prices[i] = 50 + rand.nextInt(91);
         }
 
         // calculate daily changes in prices
@@ -18,12 +18,13 @@ public class Assign2 {
             changes[i] = prices[i + 1] - prices[i];
         }
 
-        // find the maximum subarray of daily changes
+        //  maximum subarray of daily changes
         Result result = findMaximumSubarray(changes, 0, changes.length - 1);
 
-        // print the result
+        // this print the results
         System.out.println("Left index: " + result.left);
         System.out.println("Right index: " + result.right);
+        System.out.println("Middle index: " + (result.left + result.right) / 2);
         System.out.println("Sum: " + result.sum);
     }
 
