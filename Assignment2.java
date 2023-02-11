@@ -5,11 +5,15 @@ public class Assignment2 {
     static int[] prices;
 
     public static void main(String[] args) {
+        int[] day = {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17};
+        int[] price = {100, 113, 85, 105,102,86,81,101,94,101,94,101,79,94,90,97};
+        int[] priceChange = {13, -3, -25, 20, -3,-16,-23,18,20,-7,12,-5,-22,15,-5,7};
+
         // random prices for 100 days are generated
         prices = new int[100];
         Random rand = new Random();
         for (int i = 0; i < prices.length; i++) {
-            prices[i] = 50 + rand.nextInt(80);
+            prices[i] = 50 + rand.nextInt(120);
         }
 
         // this will calculate the daily changes in prices
