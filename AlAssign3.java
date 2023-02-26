@@ -1,10 +1,10 @@
 import java.util.Random;
 
-public class PriorityQueue {
-    int[] heap;
+public class AlAssign3 {
+    private int[] heap;
     private int size;
 
-    public PriorityQueue() {
+    public AlAssign3() {
         heap = new int[100];
         size = 0;
     }
@@ -79,7 +79,7 @@ public class PriorityQueue {
     }
 
     public static void main(String[] args) {
-        PriorityQueue pq = new PriorityQueue();
+        AlAssign3 pq = new AlAssign3();
         Random rand = new Random();
 
         // generate random numbers and insert into heap
@@ -105,3 +105,11 @@ public class PriorityQueue {
         pq.printHeap();
     }
 }
+
+
+
+
+
+
+
+
