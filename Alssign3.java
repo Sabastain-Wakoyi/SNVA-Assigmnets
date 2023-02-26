@@ -1,0 +1,2 @@
+public class Alssign3 {
+}
