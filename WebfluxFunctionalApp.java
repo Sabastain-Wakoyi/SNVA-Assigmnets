@@ -1,5 +1,5 @@
 
-
+//this the synchronous and blocking
     class doSomeThing{
 
 
@@ -7,7 +7,7 @@
             for (int u = 0 ; u < 10 ; u ++){
                 try {
                     System.out.println("U Working .... " + u);
-                    Thread.sleep(10);
+                    Thread.sleep(100);
                 }
                 catch (Exception ee){
                     System.out.println(ee );
@@ -18,7 +18,7 @@
             for (int u = 0 ; u < 10 ; u ++){
                 try {
                     System.out.println("U Do Some thhing  Working .... " + u);
-                    Thread.sleep(10);
+                    Thread.sleep(100);
                 }
                 catch (Exception ee){
                     System.out.println(ee );
