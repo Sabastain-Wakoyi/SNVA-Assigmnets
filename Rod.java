@@ -111,7 +111,7 @@ class Rod {
         // Implementation 3: Recursive bottom-up implementation with memoization
         count3 = 0;
         Arrays.fill(memo, 0);
-        System.out.println("Implementation 3 Recursive bottom-up implementation with memoization:");
+        System.out.println("Implementation 3 Iterations bottom-up implementation with memoization:");
         long startTime3 = System.nanoTime();
         int revenue3 = cutRod3(n);
         long endTime3 = System.nanoTime();
